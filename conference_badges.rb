@@ -23,6 +23,6 @@ end
 
 
 def batch_badge_creator
-  
+
   puts "Hello, my name is #{badge_maker}! You'll be assigned to room #{counter}!"
 end
