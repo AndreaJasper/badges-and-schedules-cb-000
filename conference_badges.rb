@@ -1,14 +1,14 @@
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+room_num = [1,2,3,4,5,6,7]
 
-# Step 1,2,3,4,5 as one, abstractly
-def badge_maker
+def badge_maker(names)
   names.each do |name|
     puts "Hello, my name is #{name}."
   end
 end
 
-room_num = [1,2,3,4,5,6,7]
-def assign_rooms
+
+def assign_rooms(names, room_num)
   counter = 1
   room_num.each do |room|
     puts "Hello, my name is #{badge_maker}! You'll be assigned to room #{counter}!"
