@@ -10,7 +10,7 @@ end
 
 def assign_rooms(names, room_num)
   counter = 1
-  room_num.each do |room|
+  room_num.each_with_index |room|
     puts "Hello, my name is #{badge_maker}! You'll be assigned to room #{counter}!"
     counter += 1
   end
